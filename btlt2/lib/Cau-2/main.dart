@@ -2,5 +2,5 @@ import 'package:flutter/material.dart';
 import 'apps/app.dart';
 
 void main() {
-  runApp(const MyAppCau2());
+  runApp(const Cau2App());
 }

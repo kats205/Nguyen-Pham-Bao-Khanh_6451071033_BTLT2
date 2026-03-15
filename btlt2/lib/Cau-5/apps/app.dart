@@ -1,18 +1,15 @@
 import 'package:flutter/material.dart';
-import '../views/profile_screen.dart';
+import '../views/expansion_menu_screen.dart';
 
-class MyAppCau5 extends StatelessWidget {
-  const MyAppCau5({super.key});
+class Cau5App extends StatelessWidget {
+  const Cau5App({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Cau-5',
+    return const MaterialApp(
+      title: 'Expansion Menu',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: const ProfileScreen(),
+      home: ExpansionMenuScreen(),
     );
   }
 }
